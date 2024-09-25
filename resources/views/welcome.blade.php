@@ -5,10 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cartridge Kings</title>
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    @vite('resources/css/app.css')
 </head>
-<body class="bg-gray-100">
 
 <!-- Header -->
+
+<header class="bg-grey shadow">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+        <div class="text-xs font-bold text-gray-800">
+            <a href="#" class="flex items-center space-x-2">
+            </a>
+        </div>
+        <nav class="space-x-4">
+            <a class="text-black-600 hover:text-black-800">Franchise Opportunities</a>
+            <a class="text-black-600 hover:text-black-800">Help</a>
+            <a class="text-black-600 hover:text-black-800">Feedback</a>
+            <a class="text-black-600 hover:text-black-800">CONTACT US</a>
+            <a class="text-black-600 hover:text-black-800">LOGIN / REGISTER</a>
+        </nav>
+        <div class="flex items-center space-x-4">
+            <div class="relative">
+                <a href="#" class="text-gray-600 hover:text-gray-800">
+                <a class="text-black-600 hover:text-black-800">hello.email.com</a>
+                <a class="text-black-600 hover:text-black-800"></a>
+                <a class="text-black-600 hover:text-black-800">0800 022 022</a>
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+
 <header class="bg-white shadow">
     <div class="container mx-auto px-4 py-6 flex justify-between items-center">
         <div class="text-3xl font-bold text-gray-800">
@@ -18,11 +44,6 @@
             </a>
         </div>
         <nav class="space-x-4">
-            <a href="#" class=" text-gray-600 hover:text-gray-800">HOME</a>
-            <a href="#" class="text-gray-600 hover:text-gray-800">INK CARTRIDGES</a>
-            <a href="#" class="text-gray-600 hover:text-gray-800">TONER CARTRIDGES</a>
-            <a href="#" class="text-gray-600 hover:text-gray-800">CONTACT US</a>
-            <a href="#" class="text-gray-600 hover:text-gray-800">LOGIN / REGISTER</a>
         </nav>
         <div class="flex items-center space-x-4">
             <input type="text" placeholder="Search" class="border rounded-lg px-4 py-2 text-sm">
@@ -35,10 +56,31 @@
     </div>
 </header>
 
+<header class="bg-white shadow">
+    <div class="container mx-auto px-4 py-6 flex justify-between items-center">
+        <div class="text-3xl font-bold text-gray-800">
+            <a href="#" class="flex items-center space-x-2">
+            </a>
+        </div>
+        <nav class="flex space-x-4">
+            <a href="#" class=" text-gray-600 hover:text-gray-800">HOME</a>
+            <a href="#" class="text-gray-600 hover:text-gray-800">INK CARTRIDGES</a>
+            <a href="#" class="text-gray-600 hover:text-gray-800">TONER CARTRIDGES</a>
+            <a href="#" class="text-gray-600 hover:text-gray-800">CONTACT US</a>
+            <a href="#" class="text-gray-600 hover:text-gray-800">LOGIN / REGISTER</a>
+        </nav>
+        <div class="flex items-center space-x-4">
+
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+
 <!-- Hero Section -->
 <section class="bg-cover bg-center py-24" style="background-image: url('/path-to-background.jpg');">
     <div class="container mx-auto text-center">
-        <h1 class="text-xs font-bold text-white mb-6">FIND THE RIGHT CARTRIDGES FOR YOUR PRINTER</h1>
+        <h1 class="text-4xl font-bold text-white mb-6">FIND THE RIGHT CARTRIDGES FOR YOUR PRINTER</h1>
         <div class="bg-white p-4 rounded-lg shadow-lg inline-block space-y-4">
             <div class="grid grid-cols-3 gap-4">
                 <select class="border border-gray-300 rounded-lg px-4 py-2">
@@ -91,4 +133,7 @@
 </section>
 
 </body>
+
+<body class="bg-gray-100"></body>
+
 </html>
