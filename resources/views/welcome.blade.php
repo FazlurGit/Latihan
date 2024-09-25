@@ -36,22 +36,23 @@
 </header>
 
 <header class="bg-white shadow">
-    <div class="container mx-auto px-4 py-6 flex justify-between items-center">
-        <div class="text-3xl font-bold text-gray-800">
+    <div class="container mx-auto px-4 py-6 flex justify-center items-center">
+        <!-- Logo and Title -->
+        <div class="text-3xl font-bold text-gray-800 mr-2"> <!-- Tambahkan margin-right -->
             <a href="#" class="flex items-center space-x-2">
-                <img src="/path-to-logo.png" alt="Logo" class="h-8">
+                <img src="/path-to-logo.png" class="h-8">
                 <span>CARTRIDGE KINGS</span>
             </a>
         </div>
-        <nav class="space-x-4">
-        </nav>
-        <div class="flex items-center space-x-4">
+
+        <!-- Search bar -->
+        <div class="flex items-center">
             <input type="text" placeholder="Search" class="border rounded-lg px-4 py-2 text-sm">
-            <div class="relative">
-                <a href="#" class="text-gray-600 hover:text-gray-800">
-                    <span class="font-semibold">CART (1)</span>
-                </a>
-            </div>
+        </div>
+
+        <!-- Cart -->
+        <div class="relative ml-2"> <!-- Tambahkan margin-left untuk menyesuaikan jarak -->
+            <button class="bg-orange-500 text-white px-8 py-2 rounded-lg font-semibold">CART (1)</button>
         </div>
     </div>
 </header>
@@ -62,12 +63,12 @@
             <a href="#" class="flex items-center space-x-2">
             </a>
         </div>
-        <nav class="flex space-x-4">
-            <a href="#" class=" text-gray-600 hover:text-gray-800">HOME</a>
-            <a href="#" class="text-gray-600 hover:text-gray-800">INK CARTRIDGES</a>
-            <a href="#" class="text-gray-600 hover:text-gray-800">TONER CARTRIDGES</a>
-            <a href="#" class="text-gray-600 hover:text-gray-800">CONTACT US</a>
-            <a href="#" class="text-gray-600 hover:text-gray-800">LOGIN / REGISTER</a>
+        <nav class="bg-blue-500 flex space-x-9">
+            <a href="#" class="text-white hover:bg-blue-600 px-8 py-3">HOME</a>
+            <a href="#" class="text-white hover:bg-blue-600 px-8 py-3">INK CARTRIDGES</a>
+            <a href="#" class="text-white hover:bg-blue-600 px-8 py-3">TONER CARTRIDGES</a>
+            <a href="#" class="text-white hover:bg-blue-600 px-8 py-3">CONTACT US</a>
+            <a href="#" class="text-white hover:bg-blue-600 px-8 py-3">LOGIN / REGISTER</a>
         </nav>
         <div class="flex items-center space-x-4">
 
