@@ -11,24 +11,22 @@
 <!-- Header -->
 
 <header class="bg-grey shadow">
-    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+    <div class="container px-4 py-4 flex justify-between items-center">
         <div class="text-xs font-bold text-gray-800">
             <a href="#" class="flex items-center space-x-2">
             </a>
         </div>
-        <nav class="space-x-4">
+        <nav class="space-x-8">
             <a class="text-black-600 hover:text-black-800">Franchise Opportunities</a>
             <a class="text-black-600 hover:text-black-800">Help</a>
             <a class="text-black-600 hover:text-black-800">Feedback</a>
-            <a class="text-black-600 hover:text-black-800">CONTACT US</a>
-            <a class="text-black-600 hover:text-black-800">LOGIN / REGISTER</a>
         </nav>
         <div class="flex items-center space-x-4">
             <div class="relative">
                 <a href="#" class="text-gray-600 hover:text-gray-800">
-                <a class="text-black-600 hover:text-black-800">hello.email.com</a>
-                <a class="text-black-600 hover:text-black-800"></a>
-                <a class="text-black-600 hover:text-black-800">0800 022 022</a>
+                <a class="text-black-600 hover:text-black-800">hello@email.com</a>
+                <a class="text-black-600 hover:text-black-800 ml-4">0800 022 022</a>
+                </nav>
                 </a>
             </div>
         </div>
@@ -38,7 +36,7 @@
 <header class="bg-white shadow">
     <div class="container mx-auto px-4 py-6 flex justify-center items-center">
         <!-- Logo and Title -->
-        <div class="text-3xl font-bold text-gray-800 mr-2"> <!-- Tambahkan margin-right -->
+        <div class="text-5xl font-bold text-gray-800 mr-24"> <!-- Tambah margin-right agar ada jarak lebih lebar -->
             <a href="#" class="flex items-center space-x-2">
                 <img src="/path-to-logo.png" class="h-8">
                 <span>CARTRIDGE KINGS</span>
@@ -46,16 +44,17 @@
         </div>
 
         <!-- Search bar -->
-        <div class="flex items-center">
+        <div class="flex items-center ml-24"> <!-- Tambah margin-left untuk memberi jarak lebih luas -->
             <input type="text" placeholder="Search" class="border rounded-lg px-4 py-2 text-sm">
         </div>
 
         <!-- Cart -->
-        <div class="relative ml-2"> <!-- Tambahkan margin-left untuk menyesuaikan jarak -->
+        <div class="relative ml-4"> <!-- Sesuaikan margin-left untuk elemen Cart -->
             <button class="bg-orange-500 text-white px-8 py-2 rounded-lg font-semibold">CART (1)</button>
         </div>
     </div>
 </header>
+
 
 <header class="bg-white shadow">
     <div class="container mx-auto px-4 py-6 flex justify-between items-center">
@@ -81,9 +80,9 @@
 <!-- Hero Section -->
 <section class="bg-cover bg-center py-24" style="background-image: url('/path-to-background.jpg');">
     <div class="container mx-auto text-center">
-        <h1 class="text-4xl font-bold text-white mb-6">FIND THE RIGHT CARTRIDGES FOR YOUR PRINTER</h1>
-        <div class="bg-white p-4 rounded-lg shadow-lg inline-block space-y-4">
-            <div class="grid grid-cols-3 gap-4">
+        <h1 class="text-4xl font-bold text-white mb-6 drop-shadow-xl">FIND THE RIGHT CARTRIDGES FOR YOUR PRINTER</h1>
+        <div class="bg-white p-10 rounded-lg shadow-lg inline-block space-y-4">
+            <div class="grid grid-cols-4 gap-5">
                 <select class="border border-gray-300 rounded-lg px-4 py-2">
                     <option>1. Printer Brand</option>
                     <!-- Option Printer Brands -->
@@ -96,8 +95,8 @@
                     <option>3. Printer Model</option>
                     <!-- Option Printer Models -->
                 </select>
+                <button class="bg-orange-500 text-white px-6 py-2 rounded-lg font-semibold">FIND CARTRIDGES</button>
             </div>
-            <button class="bg-orange-500 text-white px-8 py-2 rounded-lg font-semibold">FIND CARTRIDGES</button>
         </div>
     </div>
 </section>
